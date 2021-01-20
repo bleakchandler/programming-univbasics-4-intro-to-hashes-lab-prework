@@ -39,8 +39,8 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   
-hash = {
-  a: key
+new_hash = {
+  a: 1
 }
 end
 
