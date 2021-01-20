@@ -31,7 +31,7 @@ def my_hash_creator(key, value)
   name = key
   insertedvalue = value
   
-    new_hash = {
+   name = {
   name => insertedvalue
 }
 end
