@@ -38,10 +38,10 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  
-new_hash = {
-  name: hash
-}
+ hash[key]
+end
+h = {a: 1, b: 2}
+
 end
 
 def update_counting_hash(hash, key)
