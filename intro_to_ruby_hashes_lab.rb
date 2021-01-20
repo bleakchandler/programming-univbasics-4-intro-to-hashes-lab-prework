@@ -42,7 +42,7 @@ def read_from_hash(hash, key)
   newkey = key
   
     new_hash = {
-  newkey => "name"
+  newkey => new_hash
 }
 end
 
