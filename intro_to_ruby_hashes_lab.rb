@@ -38,10 +38,12 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  def read_from_hash(hash, key)
   hash[key]
 end
-h = {a: 1, b: 2}
+h = {
+  a: 1, b: 2
+  
+}
 
 read_from_hash(h, :a)
 #=> 1
