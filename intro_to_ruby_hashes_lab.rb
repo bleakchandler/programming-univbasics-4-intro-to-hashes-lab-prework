@@ -38,13 +38,15 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  new_hash = hash
-  newkey = key
-  
-    new_hash = {
-  newkey => new_hash
-  
-}
+  def read_from_hash(hash, key)
+  hash[key]
+end
+h = {a: 1, b: 2}
+
+read_from_hash(h, :a)
+#=> 1
+read_from_hash(h, :c)
+#=> nil
 
 end
 
