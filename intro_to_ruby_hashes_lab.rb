@@ -39,16 +39,9 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   hash[key]
-h = {
+hash = {
   a: 1, b: 2
-  
 }
-
-read_from_hash(h, :a)
-#=> 1
-read_from_hash(h, :c)
-#=> nil
-
 end
 
 def update_counting_hash(hash, key)
