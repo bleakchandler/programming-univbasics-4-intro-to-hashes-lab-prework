@@ -49,10 +49,11 @@ def update_counting_hash(hash, key)
   if hash[key]
     hash[key] += 1
     # If [key] is a key in the hash, the above will increment.
-end
+
   else
     hash[key] = 1
   end
   hash
   
  
+filter_parameter_logging
